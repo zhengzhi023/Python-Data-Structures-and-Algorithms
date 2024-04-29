@@ -4,6 +4,22 @@
 
 算法有 时间复杂度  空间非咋读
 
+
+###
+git 提交命令
+在命令行上创建新的存储库
+echo "# Python-Data-Structures-and-Algorithms" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zhengzhi023/Python-Data-Structures-and-Algorithms.git
+    git push -u origin main
+
+或从命令行推送现有存储库
+git remote add origin https://github.com/zhengzhi023/Python-Data-Structures-and-Algorithms.git
+git branch -M main
+git push -u origin main
 ## 时间复杂度
 
 
